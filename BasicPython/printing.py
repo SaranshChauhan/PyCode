@@ -1,0 +1,3 @@
+#Let's write Lyrics...
+print("Winter is Coming like seriously!")
+print("Somebody That I Used to Know::"); print("Gotye Now and then I think of when we were together Like when you said you felt so happy you could die")
