@@ -8,8 +8,8 @@ print(separator.join(numList))
 numTuple = ('1', '2', '3', '4')
 print(separator.join(numTuple))
 
-s1 = 'abc'
-s2 = '123'
+s1 = 'ABCD'
+s2 = '1234'
 
 
 # '1'+ 'abc'+ '2'+ 'abc'+ '3'
@@ -21,8 +21,7 @@ print('s2.join(s1):', s2.join(s1)) #S1's each element saparated by entire s2
 print("\nThe join() method with sets.")
 # .join() with sets
 test = {'2', '1', '3'}
-s = ', '
-print(s.join(test)) #test's every element is sparated by the s(String)
+print(''.join(test)) #test's every element is sparated by the s(String)
 
 test = {'Python', 'Java', 'Ruby'}
 s = '->->'
@@ -30,7 +29,7 @@ print(s.join(test)) #test's every elem is spatated by the s(String)
 
 print("\nThe join() method with dictionaries")
 # .join() with dictionaries
-test = {'mat': 1, 'that': 2}
+test = {'First': 1, 'Second': 2}
 s = '->'
 
 # joins the keys only
